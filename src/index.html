@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORAL GUARD</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="participe.html">Participe</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#parceiros">Parceiros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="video-container">
+    <video class="bg-video" autoplay muted loop>
+        <source src="../midia/topo.mov" type="video/mp4">
+    </video>
+    <div class="video-overlay">
+        <h1 class="impact-phrase">Protegendo os Oceanos para as Futuras Gerações</h1>
+    </div>
+</div>
+
+<section id="sobre" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">CoralGuard Systems</h2>
+                <p class="section-subheading">O Guardião Sustentável dos Oceanos</p>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-6 text-container">
+                <p>O CoralGuard Systems é um robô coral inovador, projetado para proteger os oceanos sem perturbar o ecossistema marinho. Ele possui diversas características que o tornam uma solução eficaz para a preservação dos oceanos:
+                    <span class="highlight">Monitoramento da qualidade da água</span>, <span class="highlight">Detecção de pesca ilegal</span>, <span class="highlight">Regulação do pH da água</span>, <span class="highlight">Preservação do ecossistema marinho</span>.
+                    Além de monitorar a qualidade da água e detectar atividades prejudiciais, como a pesca e a poluição através de seus sensores, ele regula o pH usando uma substância química que neutraliza a acidez da água. Com o CoralGuard Systems, preservamos os oceanos de forma sustentável.
+                </p>
+                <p>Ao clicar no botão <span class="highlight">Participe</span>, todos terão acesso a imagens e dados coletados pelo robô, proporcionando transparência e engajamento na nossa missão de proteger os oceanos. Junte-se a nós e faça parte desta iniciativa inovadora para um futuro mais sustentável.</p>
+                <a class="btn btn-outline-info btn-xl text-uppercase" href="participe.html">Saiba Mais...</a>
+            </div>
+            <div class="col-lg-6">
+                <div class="image-shadow-container">
+                    <div class="overlay-image">
+                        <img src="../midia/1.jpg" class="img-fluid overlay-img" alt="Imagem 1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="parceiros" class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Parceiros</h2>
+                <p class="section-subheading">Nossos parceiros são fundamentais para o sucesso do CoralGuard Systems.</p>
+                <div class="row justify-content-center">
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <img src="../midia/parceiro1.png" class="img-fluid partner-logo" alt="Parceiro 1">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <img src="../midia/parceiro2.png" class="img-fluid partner-logo" alt="Parceiro 2">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <img src="../midia/parceiro3.png" class="img-fluid partner-logo" alt="Parceiro 3">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <img src="../midia/parceiro4.jpg" class="img-fluid partner-logo" alt="Parceiro 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contato" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Contato</h2>
+                <p class="section-subheading">Entre em contato conosco para saber mais sobre o CoralGuard Systems.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="row">
+                        <div class="widht">
+                            <div class="form-group">
+                                <input class="form-control" id="name" type="text" placeholder="Nome *" required="required" data-validation-required-message="Por favor, insira seu nome.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Por favor, insira seu email.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="phone" type="tel" placeholder="Telefone *" required="required" data-validation-required-message="Por favor, insira seu telefone.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" placeholder="Mensagem *" required="required" data-validation-required-message="Por favor, insira sua mensagem."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <button id="sendMessageButton" class="btn btn-outline-info btn-xl text-uppercase margin-top" type="submit">Enviar Mensagem</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <p class="mb-0">© 2024 CoralGuard Systems. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
