@@ -36,3 +36,9 @@ O CoralGuard Systems oferece uma plataforma digital inovadora e um robô coral, 
 
 ## Como Rodar o Projeto
 Basta abrir o arquivo `index.html` no seu navegador.
+
+### SonarCloud
+Os testes de qualidade de código são realizados utilizando o [SonarCloud](https://sonarcloud.io/summary/overall?id=naylasouza_CoralGuardSystems).
+
+#### Resultados
+Os resultados detalhados dos testes de qualidade de código podem ser encontrados [aqui](https://sonarcloud.io/summary/overall?id=naylasouza_CoralGuardSystems).
