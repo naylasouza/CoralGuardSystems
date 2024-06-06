@@ -10,12 +10,10 @@ CoralGuard Systems é um projeto inovador focado na preservação dos recifes de
 ## Problemas Abordados
 Os oceanos enfrentam desafios críticos que ameaçam sua saúde e biodiversidade. A degradação dos recifes de corais, poluição marinha e pesca ilegal são problemas significativos que o CoralGuard Systems busca mitigar, alinhando-se com o Objetivo de Desenvolvimento Sustentável 14 (ODS 14): Vida na Água.
 
-![Ocean Pollution](https://example.com/ocean-pollution.jpg)
 
 ## Solução
 O CoralGuard Systems oferece uma plataforma digital inovadora e um robô coral, o CoralBot, equipado com sensores de última geração para monitorar e proteger os oceanos de forma sustentável.
 
-![CoralBot](https://example.com/coralbot.jpg)
 
 ## Características Principais
 - **📊 Monitoramento da Qualidade da Água:** Medição de pH e detecção de poluentes.
@@ -24,7 +22,6 @@ O CoralGuard Systems oferece uma plataforma digital inovadora e um robô coral, 
 - **🐠 Integração Natural:** Design em forma de coral para integração discreta no ambiente marinho.
 - **🌐 Engajamento Comunitário:** Plataforma interativa para participação de biólogos e a comunidade científica.
 
-![Features](https://example.com/features.jpg)
 
 ## Estrutura do Projeto
 
@@ -39,5 +36,3 @@ O CoralGuard Systems oferece uma plataforma digital inovadora e um robô coral, 
 
 ## Como Rodar o Projeto
 Basta abrir o arquivo `index.html` no seu navegador.
-
-![Run Project](https://example.com/run-project.jpg)
